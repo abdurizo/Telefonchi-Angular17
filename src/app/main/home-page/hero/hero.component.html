@@ -1,0 +1,42 @@
+<section>
+  <div class="grid">
+    <div class="carousel child1">
+      CARAUSEL Swiper
+    </div>
+    <div class="feature_box ">
+      <article class="trustpay_box">
+        <div class="iman">
+          <div><img src="../../../../assets/images/icon_iman.png" alt="" /></div>
+          <div><img src="../../../../assets/images/iman.png" alt="" /></div>
+        </div>
+        <div class="contecst">
+          <h2 class="title">Рассрочка</h2>
+          <p class="text">
+            Рассрочка на 0% без <br />
+            предоплаты
+          </p>
+          <div class="icon_halal">
+            <img src="../../../../assets/images/halal.png" alt="" />
+          </div>
+        </div>
+      </article>
+      <article class="shipping_box">
+        <div class="contecst">
+          <h2 class="title">Доставка</h2>
+          <p class="text">
+            Бесплатная доставка по <br />
+            всей Узбекистан
+          </p>
+        </div>
+        <div class="shipping_icon">
+          <img src="../../../../assets/images/professional-delivery.png" alt="" />
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="grid_bottom">
+    @for (card of cards;track $index ){
+    <app-hero-card [card]="card"></app-hero-card>
+    }
+  </div>
+</section>

@@ -1,0 +1,21 @@
+.card {
+    border: 1px solid rgba(93, 95, 239, 0.1);
+    border-radius: 8px;
+    background: rgba(14, 24, 44, 0.01);
+    padding: 20px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(14, 24, 44, 0.1);
+}
+.image{
+    max-width: 42px;
+    height: 42px;
+}
+.text {
+    font-family: SFProDisplay-Regular;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(14, 24, 44);
+}
