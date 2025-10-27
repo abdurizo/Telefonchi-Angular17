@@ -2,3 +2,9 @@
     <h2 class="title">Горячие скидки</h2>
     <app-view-all-button></app-view-all-button>
 </div>
+<div class="grid">
+    @for ( productcard  of cardsproduct; track $index) {
+        <app-product-card [cardProduct]="productcard"></app-product-card>
+    }
+  
+</div>
